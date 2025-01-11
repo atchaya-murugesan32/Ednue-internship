@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Floating Button</title>
+        <style>
+            body {
+                margin: 0px;
+                height: 50px;
+                background-color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .floating-button {
+                    position: fixed;
+                    bottom: 30px;
+                    right: 30px;
+                    background-color: green;
+                    color: red;
+                    border: none;
+                    padding: 20px 25px;
+                    border-radius: 50px;
+                    font-size: 20px;
+            }
+            .floating-button:hoover {
+                background-color: white;
+                cursor: progress;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 style="text-align: center; margin-bottom: 20px;">Floating Button Example</h2>
+  <button class="floating-button" onclick="location.href='box_model.html'">Go to Profile</button>
+    </body>
+</html>
