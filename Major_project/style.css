@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: beige;
+    color: maroon;
+    font-size: 20px;
+}
+
+#about {
+    background-color: white;
+    color: black;
+    padding: 60px 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  #about img {
+    border: 5px solid;
+    color: black;
+  }
+  
+  #about h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #about p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #about .btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  #about .btn:hover {
+    background-color: red;
+  }
+  #skills {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .skill {
+    width: 80%;
+  }
+  .progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    margin-top: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: green;
+    width: 0;
+    transition: width 1s ease-in-out;
+  }
+  #projects {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .project {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .project img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .project-info {
+    flex: 1;
+  }
+  
+  .project-info h3 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .project-info p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .project-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .project-links a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-links a:hover {
+    background-color: #0056b3;
+  }
+  #contact {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1.1em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #formMessage {
+    margin-top: 20px;
+    font-size: 1.1em;
+  }
+  

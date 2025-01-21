@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">My Personal Portfolio</div>
+         <nav>
+            <ul>
+                <li><a href="home">home</a></li>
+                <li><a href="about">about</a></li>
+                <li><a href="skills">skills</a></li>
+                <li><a href="projects">projects</a></li>
+                <li><a href="contact">contact</a></li>
+            </ul>
+        </nav>
+        </header>
+        <section id="about">
+             <div class="about-container">
+                <img src="Screenshot 2025-01-18 184340.png" alt="Sample photo" class="rounded-circle mb-4" style="width: 150px; height: 150px; object-fit: cover;">
+                <div class="about-text"></div>
+                <h3>Atchaya</h3>
+                <pre>
+                    Motivated and detail-oriented Computer Science student with a strong foundation in programming
+                    algorithms, and software development. Proficient in languages such as Python, Java, and C++, with
+                    hands-on experience in web development and database management. Passionate about solving
+                    real-world problems through innovative technology and eager to contribute to impactful projects.
+                </pre>
+                <a href="day04/profile.html" class="btn btn-primary mt-3" download>Download Resume</a>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            
+            <div class="skills-container">
+              <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <h3>Bootstrap</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="projects">
+            <h2>My Projects</h2>
+          <div class="projects-container">
+            <div class="project">
+                <img src="Screenshot 2025-01-21 212340.png" alt="Project 1 Screenshot">
+                <div class="project-info">
+                  <h3>My Profile</h3>
+                  <p>This is a project where we use HTML and CSS to complete this project</p>
+                  <div class="project-links">
+                    <a href="https://github.com/yourusername/project1" target="_blank" class="github-link">GitHub</a>
+                  </div>
+                </div>
+              </div>
+              <div class="project">
+                <img src="Screenshot 2025-01-21 213255.png" alt="Project 2 Screenshot">
+                <div class="project-info">
+                  <h3>Mini Blog</h3>
+                  <p>A short description of the second project. I used HTML only to finish this project to create a article about my day on beach</p>
+                  <div class="project-links">
+                    <a href="https://github.com/yourusername/project2" target="_blank" class="github-link">GitHub</a>
+                    <a href="https://live-demo-link2.com" target="_blank" class="demo-link">Live Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="contact">
+            <h2>Contact Me</h2>
+          
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+              </div>
+          
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+              </div>
+          
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+              </div>
+          
+              <button type="submit">Submit</button>
+            </form>
+          
+            <div id="formMessage"></div>
+          </section>
+          
